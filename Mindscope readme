@@ -1,0 +1,63 @@
+# 🧠 MindScope: Predicting Youth Mental Health Support Needs
+
+MindScope is a machine learning project focused on identifying whether young individuals may need mental health support, based on demographic and lifestyle information. This predictive model can assist early intervention efforts and inform targeted youth mental health services in South Africa.
+
+## 📌 Project Goals
+
+- Use machine learning to predict if a youth may require mental health support
+- Identify key features (risk factors) associated with mental health vulnerability
+- Build an interpretable, performant classification model
+- Lay the foundation for a simple, user-friendly Streamlit app
+
+---
+
+## 📊 Dataset
+
+A **synthetic dataset** was created based on real-world insights from:
+
+- [Statistics South Africa (StatsSA)](https://www.statssa.gov.za/)
+- [Healthsites.io](https://healthsites.io/)
+- Public health research and youth well-being indicators
+
+### Key Features Include:
+- Age group
+- Gender
+- Province
+- Education level
+- Unemployment status
+- Internet access
+- Financial stress
+- Exposure to violence
+- Social support availability
+- Physical health condition
+
+Target variable: `needs_mental_health_support` (binary)
+
+---
+
+## ⚙️ Technologies Used
+
+- **Python** (pandas, scikit-learn, seaborn, matplotlib)
+- **Jupyter Notebook** (exploratory data analysis & modeling)
+- **Scikit-learn** (Logistic Regression, Random Forest)
+- **Streamlit** *(coming soon – for app interface)*
+
+---
+
+## 🔍 Model Results
+
+After training multiple models, **Random Forest Classifier** performed best:
+
+| Metric     | Score  |
+|------------|--------|
+| Accuracy   | ~82%   |
+| Precision  | High   |
+| Recall     | High   |
+| F1-score   | High   |
+
+The model highlights important features such as **financial stress**, **social support**, and **exposure to violence** as key predictors of mental health risk.
+
+---
+
+## 📁 Project Structure
+
